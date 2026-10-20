@@ -1,0 +1,36 @@
+- generic [ref=f10e2]:
+  - generic [ref=f10e3]: load.ps1
+  - generic [ref=f10e6]:
+    - generic [ref=f10e7]: "1"
+    - text: "# Генератор нагрузки: ходит по страницам сайта, чтобы метрики менялись в реальном времени."
+    - generic [ref=f10e8]: "2"
+    - text: "# Запуск: powershell -ExecutionPolicy Bypass -File load.ps1 (остановить — Ctrl+C)"
+    - generic [ref=f10e9]: "3"
+    - text: $base = "http://localhost:8001"
+    - generic [ref=f10e10]: "4"
+    - text: $pages = @("/", "/russian", "/informatics", "/geographic", "/biology", "/history", "/literature",
+    - generic [ref=f10e11]: "5"
+    - text: "\"/tests/test_list\", \"/tests/russian-test/\", \"/tests/math-test/\", \"/login\", \"/signup\","
+    - generic [ref=f10e12]: "6"
+    - text: "\"/no-such-page\")"
+    - generic [ref=f10e13]: "7"
+    - generic [ref=f10e14]: "8"
+    - text: "while ($true) {"
+    - generic [ref=f10e15]: "9"
+    - text: $url = $base + ($pages | Get-Random)
+    - generic [ref=f10e16]: "10"
+    - text: "try {"
+    - generic [ref=f10e17]: "11"
+    - text: $r = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 5
+    - generic [ref=f10e18]: "12"
+    - text: Write-Host "$($r.StatusCode) $url"
+    - generic [ref=f10e19]: "13"
+    - text: "} catch {"
+    - generic [ref=f10e20]: "14"
+    - text: Write-Host "ERR $url"
+    - generic [ref=f10e21]: "15"
+    - text: "}"
+    - generic [ref=f10e22]: "16"
+    - text: Start-Sleep -Milliseconds (Get-Random -Minimum 100 -Maximum 600)
+    - generic [ref=f10e23]: "17"
+    - text: "}"

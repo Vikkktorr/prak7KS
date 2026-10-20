@@ -1,0 +1,1 @@
+[    1565ms] [WARNING] [Deprecation warning] PanelPlugin: plugin.setSuggestionsSupplier(new Supplier()) is deprecated. Use plugin.setSuggestionsSupplier(dataSummary => [...]) instead @ http://localhost:3618/public/build/6182.0d50a9cb388deb736875.js:0

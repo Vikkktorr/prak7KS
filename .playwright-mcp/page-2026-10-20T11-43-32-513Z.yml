@@ -1,0 +1,40 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]: tests/views.py
+  - generic [ref=f4e6]:
+    - generic [ref=f4e7]: "18"
+    - text: "def take_test(request, test_id):"
+    - generic [ref=f4e8]: "19"
+    - text: test = Test.objects.get(id=test_id)
+    - generic [ref=f4e9]: "20"
+    - text: discipline = test.discipline
+    - generic [ref=f4e10]: "21"
+    - text: questions = Question.objects.filter(test=test)
+    - generic [ref=f4e11]: "22"
+    - text: "if request.method == 'POST':"
+    - generic [ref=f4e12]: "23"
+    - text: form = AnswerForm(request.POST, questions=questions)
+    - generic [ref=f4e13]: "24"
+    - text: "if form.is_valid():"
+    - generic [ref=f4e14]: "25"
+    - text: score = calculate_score(form.cleaned_data)
+    - generic [ref=f4e15]: "26"
+    - text: max_score = calculate_max_score(questions)
+    - generic [ref=f4e16]: "27"
+    - text: percentage = calculate_percentage(score, max_score)
+    - generic [ref=f4e17]: "28"
+    - generic [ref=f4e18]: "29"
+    - text: "# Сохраняем результаты теста в базе данных"
+    - generic [ref=f4e19]: "30"
+    - text: TestResult.objects.create(user=request.user, test=test, score=score)
+    - generic [ref=f4e20]: "31"
+    - text: test_submissions.labels(test=test.name).inc()
+    - generic [ref=f4e21]: "32"
+    - text: test_score_percent.observe(percentage)
+    - generic [ref=f4e22]: "33"
+    - text: "return JsonResponse({'score': score, 'max_score': max_score, 'percentage': percentage})"
+    - generic [ref=f4e23]: "34"
+    - text: "else:"
+    - generic [ref=f4e24]: "35"
+    - text: form = AnswerForm(questions=questions)
+    - generic [ref=f4e25]: "36"
+    - text: "return render(request, 'tests/take_test.html', {'test': test, 'questions': questions, 'form': form, 'discipline': discipline})"

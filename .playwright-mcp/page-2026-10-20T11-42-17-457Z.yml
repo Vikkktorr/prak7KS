@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: uptest/settings.py
+    - generic [ref=e4]:
+      - generic [ref=e5]: 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55
+      - generic [ref=e6]: "ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'host.docker.internal'] # Application definition INSTALLED_APPS = [ 'django_prometheus', 'main', 'tests', 'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', ] MIDDLEWARE = [ 'django_prometheus.middleware.PrometheusBeforeMiddleware', 'django.middleware.security.SecurityMiddleware', 'django.contrib.sessions.middleware.SessionMiddleware', 'django.middleware.common.CommonMiddleware', 'django.middleware.csrf.CsrfViewMiddleware', 'django.contrib.auth.middleware.AuthenticationMiddleware', 'django.contrib.messages.middleware.MessageMiddleware', 'django.middleware.clickjacking.XFrameOptionsMiddleware', 'django_prometheus.middleware.PrometheusAfterMiddleware', ]"
+  - generic [ref=e8]:
+    - generic [ref=e9]: uptest/settings.py
+    - generic [ref=e10]:
+      - generic [ref=e11]: 79 80 81 82 83 84 85 86
+      - generic [ref=e12]: "# https://docs.djangoproject.com/en/5.0/ref/settings/#databases DATABASES = { 'default': { 'ENGINE': 'django_prometheus.db.backends.sqlite3', 'NAME': BASE_DIR / 'db.sqlite3', } }"

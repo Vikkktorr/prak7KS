@@ -1,0 +1,29 @@
+- generic [ref=f12e3]:
+  - banner [ref=f12e4]:
+    - generic [ref=f12e6]:
+      - generic [ref=f12e7]:
+        - link [ref=f12e8] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f12e9]:
+            - paragraph [ref=f12e11]: Prometheus
+            - paragraph
+        - generic [ref=f12e12]:
+          - link "Query" [ref=f12e13] [cursor=pointer]:
+            - /url: /query
+          - link "Alerts" [ref=f12e20] [cursor=pointer]:
+            - /url: /alerts
+          - link "Status Target health" [ref=f12e27] [cursor=pointer]:
+            - /url: /targets
+      - generic [ref=f12e39]:
+        - button "Switch to light theme" [ref=f12e40] [cursor=pointer]
+        - button "Settings" [ref=f12e44] [cursor=pointer]
+        - link "Documentation" [ref=f12e49] [cursor=pointer]:
+          - /url: https://prometheus.io/docs/prometheus/latest/getting_started/
+  - navigation [ref=f12e54]:
+    - link "Query" [ref=f12e55] [cursor=pointer]:
+      - /url: /query
+    - link "Alerts" [ref=f12e62] [cursor=pointer]:
+      - /url: /alerts
+    - link "Status Target health" [ref=f12e69] [cursor=pointer]:
+      - /url: /targets
+  - main [ref=f12e81]

@@ -1,0 +1,3 @@
+- generic [ref=f6e2]:
+  - generic [ref=f6e3]: Windows PowerShell
+  - generic [ref=f6e4]: PS C:\Users\Виктор\Desktop\uptest> docker compose up -d --build ... Image uptest-uptest Built Container uptest-uptest-1 Recreate Container uptest-uptest-1 Recreated Container uptest-uptest-1 Starting Container uptest-uptest-1 Started

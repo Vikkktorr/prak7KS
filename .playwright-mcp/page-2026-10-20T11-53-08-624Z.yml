@@ -1,0 +1,296 @@
+- generic [ref=f41e8]:
+  - link "Skip to main content" [ref=f41e9] [cursor=pointer]:
+    - /url: "#pageContent"
+  - generic [ref=f41e11]:
+    - generic [ref=f41e12]:
+      - generic [ref=f41e13]:
+        - link [ref=f41e14] [cursor=pointer]:
+          - /url: /
+          - img "Grafana" [ref=f41e15]
+        - generic [ref=f41e16]: Grafana
+      - button "Undock menu" [ref=f41e17] [cursor=pointer]
+      - button "Close menu" [ref=f41e20] [cursor=pointer]
+    - navigation [ref=f41e23]:
+      - list "Navigation" [ref=f41e27]:
+        - listitem [ref=f41e28]:
+          - link [ref=f41e32] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f41e37]: Home
+        - listitem [ref=f41e38]:
+          - generic [ref=f41e39]:
+            - link [ref=f41e42] [cursor=pointer]:
+              - /url: /bookmarks
+              - paragraph [ref=f41e47]: Bookmarks
+            - 'button "Expand section: Bookmarks" [ref=f41e49] [cursor=pointer]'
+        - listitem [ref=f41e52]:
+          - generic [ref=f41e53]:
+            - link [ref=f41e56] [cursor=pointer]:
+              - /url: /dashboards?starred
+              - paragraph [ref=f41e61]: Starred
+            - 'button "Expand section: Starred" [ref=f41e63] [cursor=pointer]'
+        - listitem [ref=f41e66]:
+          - generic [ref=f41e67]:
+            - link [ref=f41e70] [cursor=pointer]:
+              - /url: /dashboards
+              - paragraph [ref=f41e75]: Dashboards
+            - 'button "Expand section: Dashboards" [ref=f41e77] [cursor=pointer]'
+        - listitem [ref=f41e80]:
+          - link [ref=f41e84] [cursor=pointer]:
+            - /url: /explore
+            - paragraph [ref=f41e89]: Explore
+        - listitem [ref=f41e90]:
+          - generic [ref=f41e91]:
+            - link [ref=f41e94] [cursor=pointer]:
+              - /url: /drilldown
+              - paragraph [ref=f41e102]: Drilldown
+            - 'button "Expand section: Drilldown" [ref=f41e104] [cursor=pointer]'
+        - listitem [ref=f41e107]:
+          - generic [ref=f41e108]:
+            - link [ref=f41e111] [cursor=pointer]:
+              - /url: /alerting
+              - paragraph [ref=f41e116]: Alerting
+            - 'button "Expand section: Alerting" [ref=f41e118] [cursor=pointer]'
+        - listitem [ref=f41e121]:
+          - generic [ref=f41e122]:
+            - link [ref=f41e125] [cursor=pointer]:
+              - /url: /connections
+              - paragraph [ref=f41e130]: Connections
+            - 'button "Expand section: Connections" [ref=f41e132] [cursor=pointer]'
+        - listitem [ref=f41e135]:
+          - generic [ref=f41e136]:
+            - link [ref=f41e139] [cursor=pointer]:
+              - /url: /admin
+              - paragraph [ref=f41e144]: Administration
+            - 'button "Collapse section: Administration" [expanded] [ref=f41e146] [cursor=pointer]'
+          - list [ref=f41e149]:
+            - listitem [ref=f41e150]:
+              - generic [ref=f41e151]:
+                - link [ref=f41e154] [cursor=pointer]:
+                  - /url: /admin/general
+                  - paragraph [ref=f41e157]: General
+                - 'button "Expand section: General" [ref=f41e159] [cursor=pointer]'
+            - listitem [ref=f41e162]:
+              - generic [ref=f41e163]:
+                - link [ref=f41e166] [cursor=pointer]:
+                  - /url: /admin/plugins
+                  - paragraph [ref=f41e169]: Plugins and data
+                - 'button "Collapse section: Plugins and data" [expanded] [ref=f41e171] [cursor=pointer]'
+              - list [ref=f41e174]:
+                - listitem [ref=f41e175]:
+                  - link [ref=f41e180] [cursor=pointer]:
+                    - /url: /plugins
+                    - paragraph [ref=f41e183]: Plugins
+                - listitem [ref=f41e184]:
+                  - link [ref=f41e189] [cursor=pointer]:
+                    - /url: /datasources/correlations
+                    - paragraph [ref=f41e192]: Correlations
+            - listitem [ref=f41e193]:
+              - generic [ref=f41e194]:
+                - link [ref=f41e197] [cursor=pointer]:
+                  - /url: /admin/access
+                  - paragraph [ref=f41e200]: Users and access
+                - 'button "Expand section: Users and access" [ref=f41e202] [cursor=pointer]'
+            - listitem [ref=f41e205]:
+              - link [ref=f41e209] [cursor=pointer]:
+                - /url: /admin/authentication
+                - paragraph [ref=f41e212]: Authentication
+  - banner [ref=f41e213]:
+    - generic [ref=f41e214]:
+      - navigation "Breadcrumbs" [ref=f41e216]:
+        - list [ref=f41e217]:
+          - listitem [ref=f41e218]:
+            - link "Administration" [ref=f41e219] [cursor=pointer]:
+              - /url: /admin
+          - listitem [ref=f41e223]:
+            - link "Plugins and data" [ref=f41e224] [cursor=pointer]:
+              - /url: /admin/plugins
+          - listitem [ref=f41e228]:
+            - link "Plugins" [ref=f41e229] [cursor=pointer]:
+              - /url: /plugins
+          - listitem [ref=f41e233]:
+            - generic "Polystat" [ref=f41e234]
+      - generic [ref=f41e235]:
+        - generic [ref=f41e237]:
+          - button "Search..." [ref=f41e241] [cursor=pointer]
+          - generic [ref=f41e242]: ctrl+k
+        - button "New" [ref=f41e244] [cursor=pointer]
+        - button "Help" [ref=f41e250] [cursor=pointer]
+        - button "Profile" [ref=f41e254] [cursor=pointer]:
+          - img "User avatar" [ref=f41e255]
+  - main [ref=f41e258]:
+    - log [ref=f41e259]
+    - generic [ref=f41e262]:
+      - generic [ref=f41e263]:
+        - generic [ref=f41e264]:
+          - generic [ref=f41e266]:
+            - img "logo for Polystat" [ref=f41e267]
+            - heading "Polystat" [level=1] [ref=f41e268]
+          - button "Uninstall" [ref=f41e273] [cursor=pointer]
+        - generic [ref=f41e275]: Polystat panel for Grafana
+      - tablist [ref=f41e282]:
+        - tab "Overview" [selected] [ref=f41e284] [cursor=pointer]
+        - tab "Version history" [ref=f41e288] [cursor=pointer]
+        - tab "Changelog" [ref=f41e292] [cursor=pointer]
+        - tab "Screenshots" [ref=f41e296] [cursor=pointer]
+      - generic [ref=f41e300]:
+        - generic [ref=f41e302]:
+          - heading "Grafana Polystat Panel" [level=1] [ref=f41e303]
+          - paragraph [ref=f41e304]:
+            - link [ref=f41e431] [cursor=pointer]:
+              - /url: https://grafana.com/grafana/plugins/grafana-polystat-panel
+              - img "Marketplace" [ref=f41e432]
+            - link [ref=f41e433] [cursor=pointer]:
+              - /url: https://grafana.com/grafana/plugins/grafana-polystat-panel
+              - img "Downloads" [ref=f41e434]
+            - link [ref=f41e435] [cursor=pointer]:
+              - /url: ""
+              - img "License" [ref=f41e436]
+            - link [ref=f41e437] [cursor=pointer]:
+              - /url: https://snyk.io/test/github/grafana/grafana-polystat-panel
+              - img "Known Vulnerabilities" [ref=f41e438]
+            - link [ref=f41e446] [cursor=pointer]:
+              - /url: https://codeclimate.com/github/grafana/grafana-polystat-panel/maintainability
+              - img "Maintainability" [ref=f41e447]
+            - link [ref=f41e448] [cursor=pointer]:
+              - /url: https://codeclimate.com/github/grafana/grafana-polystat-panel/test_coverage
+              - img "Test Coverage" [ref=f41e449]
+          - paragraph [ref=f41e305]:
+            - text: The Polystat panel plugin provides a
+            - link "D3-based" [ref=f41e306] [cursor=pointer]:
+              - /url: http://www.d3js.org
+            - text: multi-stat panel for
+            - link "Grafana" [ref=f41e307] [cursor=pointer]:
+              - /url: https://grafana.com/
+            - text: 9.5 or later.
+          - paragraph [ref=f41e308]: This plugin creates an hexagon for each metric received, and allows you to group metrics into a composite metric and display the triggered state of the composite. The plugin supports autoscaling for best-fit sizing of each polygon to the panel size. When the complete text cannot be displayed, only tooltips are active.
+          - paragraph [ref=f41e309]: "See the following examples:"
+          - paragraph [ref=f41e310]:
+            - strong [ref=f41e311]: All visible
+          - paragraph [ref=f41e312]:
+            - img "polystat-v2-agent-all-visible" [ref=f41e439]
+          - paragraph [ref=f41e313]:
+            - strong [ref=f41e314]: Scaled down
+          - paragraph [ref=f41e315]:
+            - img "polystat-v2-agent-scaled-down" [ref=f41e440]
+          - paragraph [ref=f41e316]:
+            - strong [ref=f41e317]: Scaled down with tooltip
+          - paragraph [ref=f41e318]:
+            - img "polystat-v2-agent-scaled-down-tooltip" [ref=f41e441]
+          - heading "Settings and options" [level=2] [ref=f41e319]
+          - paragraph [ref=f41e320]:
+            - text: This panel provides a large number of settings customization options, and are searchable from the menu. For more info, see
+            - link "General settings" [ref=f41e321] [cursor=pointer]:
+              - /url: ""
+            - text: and
+            - link "Options" [ref=f41e322] [cursor=pointer]:
+              - /url: ""
+            - text: .
+          - heading "Clickthrough URLs" [level=3] [ref=f41e323]
+          - paragraph [ref=f41e324]:
+            - text: Use this setting to indicate the URL to open when clicking the polygon. Find more information in
+            - link "Use Clickthrough URLs" [ref=f41e325] [cursor=pointer]:
+              - /url: ""
+            - text: .
+          - heading "Set thresholds" [level=2] [ref=f41e326]
+          - paragraph [ref=f41e327]:
+            - text: This plugin supports "ranged" states. See how to
+            - link "Set thresholds" [ref=f41e328] [cursor=pointer]:
+              - /url: ""
+            - text: .
+          - heading "Overrides" [level=2] [ref=f41e329]
+          - paragraph [ref=f41e330]:
+            - text: Use overrides to apply additional rendering options for metrics, including custom thresholds and clickthroughs.
+            - link "Learn more" [ref=f41e331] [cursor=pointer]:
+              - /url: ""
+            - text: .
+          - heading "Composites" [level=2] [ref=f41e332]
+          - paragraph [ref=f41e333]:
+            - text: Composites allow you to combine multiple metrics into a single representation that reflects the "worst" state of the metrics combined. See how at
+            - link "Composites" [ref=f41e334] [cursor=pointer]:
+              - /url: ""
+            - text: .
+          - heading "Value mappings" [level=2] [ref=f41e335]
+          - paragraph [ref=f41e336]:
+            - text: This is a built-in option in Grafana and behaves as documented in
+            - link "Configure value mappings" [ref=f41e337] [cursor=pointer]:
+              - /url: https://grafana.com/docs/grafana/latest/panels/configure-value-mappings/
+            - text: .
+          - paragraph [ref=f41e338]: Note that color assignments are ignored, and only threshold colors are applied.
+          - heading "Build the plugin" [level=2] [ref=f41e339]
+          - paragraph [ref=f41e340]:
+            - text: This plugin relies on the
+            - link "Plugin Tools" [ref=f41e341] [cursor=pointer]:
+              - /url: https://github.com/grafana/plugin-tools
+            - text: "typical build sequence:"
+          - code [ref=f41e343]: yarn install yarn build
+          - paragraph [ref=f41e344]: The code is parsed and copied into "dist" if "tslint" passes without errors.
+          - paragraph [ref=f41e345]: "For development, you can run:"
+          - code [ref=f41e347]: yarn dev
+          - heading "Docker Support" [level=3] [ref=f41e348]
+          - paragraph [ref=f41e349]:
+            - text: The plugin includes a
+            - code [ref=f41e350]: docker-compose.yml
+            - text: file for development and testing.
+          - paragraph [ref=f41e351]: "To use it run:"
+          - code [ref=f41e353]: docker-compose up
+          - paragraph [ref=f41e354]:
+            - text: Then browse to
+            - link "http://localhost:3000" [ref=f41e355] [cursor=pointer]:
+              - /url: http://localhost:3000
+          - heading "Enable Grafana TestData" [level=2] [ref=f41e356]
+          - paragraph [ref=f41e357]:
+            - code [ref=f41e358]: Grafana TestData
+            - text: is not enabled by default.
+          - paragraph [ref=f41e359]:
+            - text: To enable it, navigate to the Plugins section in your Grafana main menu. Click the Apps tabs in the Plugins section and select the Grafana TestData App. Alternatively navigate directly to
+            - link "http://your_grafana_instance/plugins/testdata/edit" [ref=f41e360] [cursor=pointer]:
+              - /url: http://your_grafana_instance/plugins/testdata/edit
+            - text: . Finally click the enable button to enable.
+          - heading "Acknowledgements" [level=2] [ref=f41e361]
+          - paragraph [ref=f41e362]: "This panel is based on this D3 example:"
+          - list [ref=f41e363]:
+            - listitem [ref=f41e364]:
+              - link "https://www.visualcinnamon.com/2013/07/self-organizing-maps-creating-hexagonal.html" [ref=f41e365] [cursor=pointer]:
+                - /url: https://www.visualcinnamon.com/2013/07/self-organizing-maps-creating-hexagonal.html
+          - paragraph [ref=f41e366]: "Many thanks to contributors:"
+          - list [ref=f41e367]:
+            - listitem [ref=f41e368]: Mathieu Rollet (matletix)
+            - listitem [ref=f41e369]: Mattias Jiderhamn (mjiderhamn)
+            - listitem [ref=f41e370]: AnushaBoggarapu
+            - listitem [ref=f41e371]: KamalakarGoretta
+            - listitem [ref=f41e372]: Rene Hennig (renehennig)
+            - listitem [ref=f41e373]: Hamza Ziyani (HZiyani)
+          - paragraph [ref=f41e374]: and many others!
+        - generic [ref=f41e375]:
+          - generic [ref=f41e377]:
+            - generic [ref=f41e378]:
+              - generic [ref=f41e379]: "Installed Version:"
+              - generic [ref=f41e380]: 2.1.16
+            - generic [ref=f41e381]:
+              - generic [ref=f41e382]: "Latest Version:"
+              - generic [ref=f41e383]: 2.1.16
+            - generic [ref=f41e384]:
+              - generic [ref=f41e385]: "From:"
+              - generic [ref=f41e386]: Grafana Labs
+            - generic [ref=f41e387]:
+              - generic [ref=f41e388]: "Dependencies:"
+              - generic [ref=f41e389]: Grafana >=9.5.0
+            - generic [ref=f41e394]:
+              - generic [ref=f41e395]: "Signature:"
+              - link "grafana" [ref=f41e398] [cursor=pointer]:
+                - /url: https://grafana.com/docs/grafana/latest/plugins/plugin-signatures/
+            - generic [ref=f41e401]:
+              - generic [ref=f41e402]: "Latest release date:"
+              - generic [ref=f41e403]: Jan 6, 2026
+          - generic [ref=f41e404]:
+            - generic [ref=f41e405] [cursor=pointer]:
+              - button "Custom links" [expanded] [ref=f41e406]
+              - generic [ref=f41e409]: Custom links
+            - generic [ref=f41e415]:
+              - link "Project site" [ref=f41e416] [cursor=pointer]:
+                - /url: https://github.com/grafana/grafana-polystat-panel
+              - link "Apache-2.0" [ref=f41e419] [cursor=pointer]:
+                - /url: https://github.com/grafana/grafana-polystat-panel/blob/master/LICENSE.md
+          - generic [ref=f41e422] [cursor=pointer]:
+            - button "Report a concern" [ref=f41e423]
+            - generic [ref=f41e426]: Report a concern

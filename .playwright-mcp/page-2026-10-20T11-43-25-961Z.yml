@@ -1,0 +1,64 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - generic [ref=f3e3]: uptest/urls.py
+    - generic [ref=f3e6]:
+      - generic [ref=f3e7]: "17"
+      - text: from django.contrib import admin
+      - generic [ref=f3e8]: "18"
+      - text: from django.urls import path, include
+      - generic [ref=f3e9]: "19"
+      - generic [ref=f3e10]: "20"
+      - text: from django.conf import settings
+      - generic [ref=f3e11]: "21"
+      - text: from django.conf.urls.static import static
+      - generic [ref=f3e12]: "22"
+      - generic [ref=f3e13]: "23"
+      - text: urlpatterns = [
+      - generic [ref=f3e14]: "24"
+      - text: path('admin/', admin.site.urls),
+      - generic [ref=f3e15]: "25"
+      - text: path('', include('main.urls')),
+      - generic [ref=f3e16]: "26"
+      - text: path('tests/', include('tests.urls')),
+      - generic [ref=f3e17]: "27"
+      - text: "path('', include('django_prometheus.urls')), # страница /metrics для Prometheus"
+      - generic [ref=f3e18]: "28"
+      - generic [ref=f3e19]: "29"
+      - generic [ref=f3e20]: "30"
+      - text: "] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)"
+  - generic [ref=f3e21]:
+    - generic [ref=f3e22]: tests/metrics.py
+    - generic [ref=f3e25]:
+      - generic [ref=f3e26]: "1"
+      - text: from django.contrib.auth.models import User
+      - generic [ref=f3e27]: "2"
+      - text: from prometheus_client import Counter, Gauge, Histogram
+      - generic [ref=f3e28]: "3"
+      - generic [ref=f3e29]: "4"
+      - text: from .models import Test
+      - generic [ref=f3e30]: "5"
+      - generic [ref=f3e31]: "6"
+      - text: "# Значения считаются из БД в момент запроса /metrics, поэтому всегда актуальны"
+      - generic [ref=f3e32]: "7"
+      - text: users_registered = Gauge('uptest_users_registered', 'Количество зарегистрированных пользователей')
+      - generic [ref=f3e33]: "8"
+      - text: "users_registered.set_function(lambda: User.objects.count())"
+      - generic [ref=f3e34]: "9"
+      - generic [ref=f3e35]: "10"
+      - text: tests_total = Gauge('uptest_tests_total', 'Количество тестов в базе')
+      - generic [ref=f3e36]: "11"
+      - text: "tests_total.set_function(lambda: Test.objects.count())"
+      - generic [ref=f3e37]: "12"
+      - generic [ref=f3e38]: "13"
+      - text: test_submissions = Counter('uptest_test_submissions', 'Сколько раз сдавали тест', ['test'])
+      - generic [ref=f3e39]: "14"
+      - generic [ref=f3e40]: "15"
+      - text: test_score_percent = Histogram(
+      - generic [ref=f3e41]: "16"
+      - text: "'uptest_test_score_percent',"
+      - generic [ref=f3e42]: "17"
+      - text: "'Процент правильных ответов при сдаче теста',"
+      - generic [ref=f3e43]: "18"
+      - text: buckets=[20, 40, 60, 80, 100],
+      - generic [ref=f3e44]: "19"
+      - text: )

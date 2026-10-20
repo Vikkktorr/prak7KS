@@ -1,0 +1,80 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - generic [ref=f1e3]: uptest/settings.py
+    - generic [ref=f1e6]:
+      - generic [ref=f1e7]: "28"
+      - generic [ref=f1e8]: ALLOWED_HOSTS
+      - text: = ['localhost', '127.0.0.1', 'host.docker.internal']
+      - generic [ref=f1e9]: "29"
+      - generic [ref=f1e10]: "30"
+      - generic [ref=f1e11]: "31"
+      - text: "# Application definition"
+      - generic [ref=f1e12]: "32"
+      - generic [ref=f1e13]: "33"
+      - generic [ref=f1e14]: INSTALLED_APPS
+      - text: = [
+      - generic [ref=f1e15]: "34"
+      - text: "'django_prometheus',"
+      - generic [ref=f1e16]: "35"
+      - text: "'main',"
+      - generic [ref=f1e17]: "36"
+      - text: "'tests',"
+      - generic [ref=f1e18]: "37"
+      - text: "'django.contrib.admin',"
+      - generic [ref=f1e19]: "38"
+      - text: "'django.contrib.auth',"
+      - generic [ref=f1e20]: "39"
+      - text: "'django.contrib.contenttypes',"
+      - generic [ref=f1e21]: "40"
+      - text: "'django.contrib.sessions',"
+      - generic [ref=f1e22]: "41"
+      - text: "'django.contrib.messages',"
+      - generic [ref=f1e23]: "42"
+      - text: "'django.contrib.staticfiles',"
+      - generic [ref=f1e24]: "43"
+      - text: "]"
+      - generic [ref=f1e25]: "44"
+      - generic [ref=f1e26]: "45"
+      - generic [ref=f1e27]: MIDDLEWARE
+      - text: = [
+      - generic [ref=f1e28]: "46"
+      - text: "'django_prometheus.middleware.PrometheusBeforeMiddleware',"
+      - generic [ref=f1e29]: "47"
+      - text: "'django.middleware.security.SecurityMiddleware',"
+      - generic [ref=f1e30]: "48"
+      - text: "'django.contrib.sessions.middleware.SessionMiddleware',"
+      - generic [ref=f1e31]: "49"
+      - text: "'django.middleware.common.CommonMiddleware',"
+      - generic [ref=f1e32]: "50"
+      - text: "'django.middleware.csrf.CsrfViewMiddleware',"
+      - generic [ref=f1e33]: "51"
+      - text: "'django.contrib.auth.middleware.AuthenticationMiddleware',"
+      - generic [ref=f1e34]: "52"
+      - text: "'django.contrib.messages.middleware.MessageMiddleware',"
+      - generic [ref=f1e35]: "53"
+      - text: "'django.middleware.clickjacking.XFrameOptionsMiddleware',"
+      - generic [ref=f1e36]: "54"
+      - text: "'django_prometheus.middleware.PrometheusAfterMiddleware',"
+      - generic [ref=f1e37]: "55"
+      - text: "]"
+  - generic [ref=f1e38]:
+    - generic [ref=f1e39]: uptest/settings.py
+    - generic [ref=f1e42]:
+      - generic [ref=f1e43]: "79"
+      - text: "# https://docs.djangoproject.com/en/5.0/ref/settings/#databases"
+      - generic [ref=f1e44]: "80"
+      - generic [ref=f1e45]: "81"
+      - generic [ref=f1e46]: DATABASES
+      - text: "= {"
+      - generic [ref=f1e47]: "82"
+      - text: "'default': {"
+      - generic [ref=f1e48]: "83"
+      - text: "'ENGINE': 'django_prometheus.db.backends.sqlite3',"
+      - generic [ref=f1e49]: "84"
+      - text: "'NAME':"
+      - generic [ref=f1e50]: BASE_DIR
+      - text: / 'db.sqlite3',
+      - generic [ref=f1e51]: "85"
+      - text: "}"
+      - generic [ref=f1e52]: "86"
+      - text: "}"

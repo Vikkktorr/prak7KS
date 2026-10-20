@@ -1,0 +1,219 @@
+- generic [ref=f26e8]:
+  - link "Skip to main content" [ref=f26e9] [cursor=pointer]:
+    - /url: "#pageContent"
+  - generic [ref=f26e11]:
+    - generic [ref=f26e12]:
+      - generic [ref=f26e13]:
+        - link [ref=f26e14] [cursor=pointer]:
+          - /url: /
+          - img "Grafana" [ref=f26e15]
+        - generic [ref=f26e16]: Grafana
+      - button "Undock menu" [ref=f26e17] [cursor=pointer]
+      - button "Close menu" [ref=f26e20] [cursor=pointer]
+    - navigation [ref=f26e23]:
+      - list "Navigation" [ref=f26e27]:
+        - listitem [ref=f26e28]:
+          - link [ref=f26e32] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f26e37]: Home
+        - listitem [ref=f26e38]:
+          - generic [ref=f26e39]:
+            - link [ref=f26e42] [cursor=pointer]:
+              - /url: /bookmarks
+              - paragraph [ref=f26e47]: Bookmarks
+            - 'button "Expand section: Bookmarks" [ref=f26e49] [cursor=pointer]'
+        - listitem [ref=f26e52]:
+          - generic [ref=f26e53]:
+            - link [ref=f26e56] [cursor=pointer]:
+              - /url: /dashboards?starred
+              - paragraph [ref=f26e61]: Starred
+            - 'button "Expand section: Starred" [ref=f26e63] [cursor=pointer]'
+        - listitem [ref=f26e66]:
+          - generic [ref=f26e67]:
+            - link [ref=f26e70] [cursor=pointer]:
+              - /url: /dashboards
+              - paragraph [ref=f26e75]: Dashboards
+            - 'button "Expand section: Dashboards" [ref=f26e77] [cursor=pointer]'
+        - listitem [ref=f26e80]:
+          - link [ref=f26e84] [cursor=pointer]:
+            - /url: /explore
+            - paragraph [ref=f26e89]: Explore
+        - listitem [ref=f26e90]:
+          - generic [ref=f26e91]:
+            - link [ref=f26e94] [cursor=pointer]:
+              - /url: /drilldown
+              - paragraph [ref=f26e102]: Drilldown
+            - 'button "Expand section: Drilldown" [ref=f26e104] [cursor=pointer]'
+        - listitem [ref=f26e107]:
+          - generic [ref=f26e108]:
+            - link [ref=f26e111] [cursor=pointer]:
+              - /url: /alerting
+              - paragraph [ref=f26e116]: Alerting
+            - 'button "Expand section: Alerting" [ref=f26e118] [cursor=pointer]'
+        - listitem [ref=f26e121]:
+          - generic [ref=f26e122]:
+            - link [ref=f26e125] [cursor=pointer]:
+              - /url: /connections
+              - paragraph [ref=f26e130]: Connections
+            - 'button "Expand section: Connections" [ref=f26e132] [cursor=pointer]'
+        - listitem [ref=f26e135]:
+          - generic [ref=f26e136]:
+            - link [ref=f26e139] [cursor=pointer]:
+              - /url: /admin
+              - paragraph [ref=f26e144]: Administration
+            - 'button "Expand section: Administration" [ref=f26e146] [cursor=pointer]'
+  - banner [ref=f26e149]:
+    - generic [ref=f26e150]:
+      - generic [ref=f26e151]:
+        - navigation "Breadcrumbs" [ref=f26e152]:
+          - list [ref=f26e153]:
+            - listitem [ref=f26e154]:
+              - link "Dashboards" [ref=f26e155] [cursor=pointer]:
+                - /url: /dashboards
+            - listitem [ref=f26e159]:
+              - generic "UpTest — мониторинг" [ref=f26e160]
+        - button "Mark \"UpTest — мониторинг\" as favorite" [ref=f26e161] [cursor=pointer]
+      - generic [ref=f26e164]:
+        - generic [ref=f26e166]:
+          - button "Search..." [ref=f26e170] [cursor=pointer]
+          - generic [ref=f26e171]: ctrl+k
+        - button "New" [ref=f26e173] [cursor=pointer]
+        - button "Help" [ref=f26e179] [cursor=pointer]
+        - button "Profile" [ref=f26e183] [cursor=pointer]:
+          - img "User avatar" [ref=f26e184]
+  - main [ref=f26e187]:
+    - log [ref=f26e188]
+    - generic [ref=f26e191]:
+      - generic [ref=f26e194]:
+        - generic [ref=f26e195]:
+          - generic [ref=f26e196]:
+            - button "Move 7m 30s backward" [ref=f26e197] [cursor=pointer]
+            - 'button "Time range selected: Last 15 minutes" [ref=f26e200] [cursor=pointer]':
+              - generic [ref=f26e203]: Last 15 minutes
+            - button "Move time range forwards" [ref=f26e208] [cursor=pointer]
+            - button "Zoom out time range" [ref=f26e211] [cursor=pointer]
+          - generic [ref=f26e214]:
+            - button "Refresh" [ref=f26e215] [cursor=pointer]
+            - button "Choose refresh time interval with current interval 5 seconds selected" [ref=f26e219] [cursor=pointer]:
+              - generic [ref=f26e220]: 5s
+        - generic [ref=f26e223]:
+          - generic [ref=f26e224]:
+            - button "Copy link" [ref=f26e225] [cursor=pointer]:
+              - generic [ref=f26e228]: Share
+            - button "Share" [ref=f26e229] [cursor=pointer]
+          - button "Enter edit mode" [ref=f26e232] [cursor=pointer]:
+            - generic [ref=f26e235]: Edit
+      - generic [ref=f26e236]:
+        - generic [ref=f26e241]:
+          - region [ref=f26e247]:
+            - heading "Состояние сайта (Polystat)" [level=2] [ref=f26e250]
+            - img [ref=f26e259]:
+              - generic [ref=f26e260]:
+                - generic: CPU
+                - generic: 2.0%
+                - generic: Запросы/с
+                - generic: 4.54 req/s
+                - generic: Ответ p95
+                - generic: 9.500 ms
+                - generic: Ошибки
+                - generic: 9.5%
+                - generic: Память
+                - generic: 51.9 MiB
+          - region [ref=f26e271]:
+            - heading "Зарегистрировано пользователей" [level=2] [ref=f26e274]
+            - generic "Пользователи" [ref=f26e278]: "8"
+          - region [ref=f26e295]:
+            - heading "Тестов в базе" [level=2] [ref=f26e298]
+            - generic "Тесты" [ref=f26e302]: "12"
+          - region [ref=f26e311]:
+            - heading "Сдачи тестов (за 5 минут)" [level=2] [ref=f26e314]
+            - list [ref=f26e332]:
+              - listitem [ref=f26e333]:
+                - generic [ref=f26e335]:
+                  - button "Edit color for Сдачи" [ref=f26e336] [cursor=pointer]
+                  - button "All series selected" [ref=f26e337] [cursor=pointer]: Сдачи
+          - region [ref=f26e343]:
+            - heading "Запросы в секунду по страницам" [level=2] [ref=f26e346]
+            - list [ref=f26e364]:
+              - listitem [ref=f26e365]:
+                - generic [ref=f26e367]:
+                  - button "Edit color for biology" [ref=f26e368] [cursor=pointer]
+                  - button "All series selected" [ref=f26e369] [cursor=pointer]: biology
+              - listitem [ref=f26e370]:
+                - generic [ref=f26e372]:
+                  - button "Edit color for geo" [ref=f26e373] [cursor=pointer]
+                  - button "All series selected" [ref=f26e374] [cursor=pointer]: geo
+              - listitem [ref=f26e375]:
+                - generic [ref=f26e377]:
+                  - button "Edit color for history" [ref=f26e378] [cursor=pointer]
+                  - button "All series selected" [ref=f26e379] [cursor=pointer]: history
+              - listitem [ref=f26e380]:
+                - generic [ref=f26e382]:
+                  - button "Edit color for home" [ref=f26e383] [cursor=pointer]
+                  - button "All series selected" [ref=f26e384] [cursor=pointer]: home
+              - listitem [ref=f26e385]:
+                - generic [ref=f26e387]:
+                  - button "Edit color for informatics" [ref=f26e388] [cursor=pointer]
+                  - button "All series selected" [ref=f26e389] [cursor=pointer]: informatics
+              - listitem [ref=f26e390]:
+                - generic [ref=f26e392]:
+                  - button "Edit color for literature" [ref=f26e393] [cursor=pointer]
+                  - button "All series selected" [ref=f26e394] [cursor=pointer]: literature
+              - listitem [ref=f26e395]:
+                - generic [ref=f26e397]:
+                  - button "Edit color for login" [ref=f26e398] [cursor=pointer]
+                  - button "All series selected" [ref=f26e399] [cursor=pointer]: login
+              - listitem [ref=f26e400]:
+                - generic [ref=f26e402]:
+                  - button "Edit color for russian" [ref=f26e403] [cursor=pointer]
+                  - button "All series selected" [ref=f26e404] [cursor=pointer]: russian
+              - listitem [ref=f26e405]:
+                - generic [ref=f26e407]:
+                  - button "Edit color for signup" [ref=f26e408] [cursor=pointer]
+                  - button "All series selected" [ref=f26e409] [cursor=pointer]: signup
+              - listitem [ref=f26e410]:
+                - generic [ref=f26e412]:
+                  - button "Edit color for take_math_test" [ref=f26e413] [cursor=pointer]
+                  - button "All series selected" [ref=f26e414] [cursor=pointer]: take_math_test
+              - listitem [ref=f26e415]:
+                - generic [ref=f26e417]:
+                  - button "Edit color for take_russian_test" [ref=f26e418] [cursor=pointer]
+                  - button "All series selected" [ref=f26e419] [cursor=pointer]: take_russian_test
+              - listitem [ref=f26e420]:
+                - generic [ref=f26e422]:
+                  - button "Edit color for test_list" [ref=f26e423] [cursor=pointer]
+                  - button "All series selected" [ref=f26e424] [cursor=pointer]: test_list
+          - region [ref=f26e430]:
+            - heading "Время ответа (p50 / p95)" [level=2] [ref=f26e433]
+            - list [ref=f26e451]:
+              - listitem [ref=f26e452]:
+                - generic [ref=f26e454]:
+                  - button "Edit color for p50 (медиана)" [ref=f26e455] [cursor=pointer]
+                  - button "All series selected" [ref=f26e456] [cursor=pointer]: p50 (медиана)
+              - listitem [ref=f26e457]:
+                - generic [ref=f26e459]:
+                  - button "Edit color for p95" [ref=f26e460] [cursor=pointer]
+                  - button "All series selected" [ref=f26e461] [cursor=pointer]: p95
+          - region [ref=f26e467]:
+            - heading "Ответы по HTTP-статусам" [level=2] [ref=f26e470]
+            - list [ref=f26e488]:
+              - listitem [ref=f26e489]:
+                - generic [ref=f26e491]:
+                  - button "Edit color for 200" [ref=f26e492] [cursor=pointer]
+                  - button "All series selected" [ref=f26e493] [cursor=pointer]: "200"
+              - listitem [ref=f26e494]:
+                - generic [ref=f26e496]:
+                  - button "Edit color for 404" [ref=f26e497] [cursor=pointer]
+                  - button "All series selected" [ref=f26e498] [cursor=pointer]: "404"
+          - region [ref=f26e504]:
+            - heading "SQL-запросы к БД в секунду" [level=2] [ref=f26e507]
+            - list [ref=f26e525]:
+              - listitem [ref=f26e526]:
+                - generic [ref=f26e528]:
+                  - button "Edit color for запросов&#x2F;с" [ref=f26e529] [cursor=pointer]
+                  - button "All series selected" [ref=f26e530] [cursor=pointer]: запросов/с
+        - generic [ref=f26e535]:
+          - generic [ref=f26e536]:
+            - button "Export" [ref=f26e537] [cursor=pointer]
+            - button "Outline" [ref=f26e541] [cursor=pointer]
+          - button "Dock" [ref=f26e548] [cursor=pointer]

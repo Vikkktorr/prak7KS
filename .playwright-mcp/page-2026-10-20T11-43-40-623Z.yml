@@ -1,0 +1,52 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e3]: Dockerfile
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]: "1"
+      - text: FROM python:3.12-slim
+      - generic [ref=f5e8]: "2"
+      - generic [ref=f5e9]: "3"
+      - text: WORKDIR /app
+      - generic [ref=f5e10]: "4"
+      - text: ENV PYTHONUNBUFFERED=1
+      - generic [ref=f5e11]: "5"
+      - generic [ref=f5e12]: "6"
+      - text: COPY requirements.txt .
+      - generic [ref=f5e13]: "7"
+      - text: RUN pip install --no-cache-dir -r requirements.txt
+      - generic [ref=f5e14]: "8"
+      - generic [ref=f5e15]: "9"
+      - text: COPY . .
+      - generic [ref=f5e16]: "10"
+      - generic [ref=f5e17]: "11"
+      - text: EXPOSE 8000
+      - generic [ref=f5e18]: "12"
+      - text: CMD ["python", "manage.py", "runserver", "0.0.0.0:8000", "--noreload"]
+  - generic [ref=f5e19]:
+    - generic [ref=f5e20]: docker-compose.yml
+    - generic [ref=f5e23]:
+      - generic [ref=f5e24]: "1"
+      - text: "services:"
+      - generic [ref=f5e25]: "2"
+      - text: "uptest:"
+      - generic [ref=f5e26]: "3"
+      - text: "build: ."
+      - generic [ref=f5e27]: "4"
+      - text: "restart: unless-stopped"
+      - generic [ref=f5e28]: "5"
+      - text: "ports:"
+      - generic [ref=f5e29]: "6"
+      - text: "- \"8001:8000\""
+  - generic [ref=f5e30]:
+    - generic [ref=f5e31]: requirements.txt
+    - generic [ref=f5e34]:
+      - generic [ref=f5e35]: "1"
+      - text: Django==5.0.*
+      - generic [ref=f5e36]: "2"
+      - text: django-prometheus==2.3.*
+      - generic [ref=f5e37]: "3"
+      - text: asgiref==3.7.2
+      - generic [ref=f5e38]: "4"
+      - text: sqlparse==0.4.4
+      - generic [ref=f5e39]: "5"
+      - text: tzdata==2024.1

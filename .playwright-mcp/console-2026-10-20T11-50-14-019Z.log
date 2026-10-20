@@ -1,0 +1,2 @@
+[    1034ms] [LOG] not correct url correcting /d/uptest-monitoring/uptest-e28094-monitoring /d/uptest-monitoring @ http://localhost:3618/public/build/7457.3dbd75f982b92a232ca2.js:236
+[    1924ms] [WARNING] [Deprecation warning] PanelPlugin: plugin.setSuggestionsSupplier(new Supplier()) is deprecated. Use plugin.setSuggestionsSupplier(dataSummary => [...]) instead @ http://localhost:3618/public/build/6182.0d50a9cb388deb736875.js:0

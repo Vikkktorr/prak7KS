@@ -1,0 +1,72 @@
+[     530ms] [LOG] not correct url correcting /d/uptest-monitoring/uptest-e28094-monitoring /d/uptest-monitoring @ http://localhost:3618/public/build/7457.3dbd75f982b92a232ca2.js:236
+[     700ms] [WARNING] [Deprecation warning] PanelPlugin: plugin.setSuggestionsSupplier(new Supplier()) is deprecated. Use plugin.setSuggestionsSupplier(dataSummary => [...]) instead @ http://localhost:3618/public/build/6182.0d50a9cb388deb736875.js:0
+[   40647ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR164:0
+[   40695ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR165:0
+[   40698ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR166:0
+[   40701ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR167:0
+[   40704ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR168:0
+[   40706ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/annotations?from=1792496036447&to=1792496936447&limit=100&matchAny=false&dashboardUID=uptest-monitoring:0
+[   40706ms] [ERROR] runRequest.catchError TypeError: Failed to fetch
+    at fetchCallImpl (http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IBcUIkqYZfRjUk5tHIguQaYnlC--6tFOk2jVKt-uel13_SuwL1qD13nSqAA0VrkFiNb1wxSqEC7-W02hPvnhb3_GEyWyjFGSRP6HPPJQSrE:4527:21)
+    at fetch (http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IBcUIkqYZfRjUk5tHIguQaYnlC--6tFOk2jVKt-uel13_SuwL1qD13nSqAA0VrkFiNb1wxSqEC7-W02hPvnhb3_GEyWyjFGSRP6HPPJQSrE:4533:60)
+    at U._subscribe (http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:16001)
+    at U._trySubscribe (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7473)
+    at http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7396
+    at v (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:115:614)
+    at U.subscribe (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7306)
+    at c (http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:23521)
+    at http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:23893
+    at k.<anonymous> (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:115:1045) @ http://localhost:3618/public/build/7457.3dbd75f982b92a232ca2.js:355
+[   40751ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR169:0
+[   40757ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR170:0
+[   40758ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR171:0
+[   40799ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/public/build/img/icons/unicons/exclamation-circle.svg:0
+[   40949ms] [ERROR] WebSocket connection to 'ws://localhost:3618/api/live/ws' failed: Connection closed before receiving a handshake response @ http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:338
+[   40954ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/login/ping:0
+[   42420ms] [ERROR] WebSocket connection to 'ws://localhost:3618/api/live/ws' failed: Connection closed before receiving a handshake response @ http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:338
+[   43987ms] [ERROR] WebSocket connection to 'ws://localhost:3618/api/live/ws' failed: Connection closed before receiving a handshake response @ http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:338
+[   45641ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR172:0
+[   45676ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR173:0
+[   45679ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR174:0
+[   45683ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR175:0
+[   45687ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR176:0
+[   45689ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/annotations?from=1792496041443&to=1792496941443&limit=100&matchAny=false&dashboardUID=uptest-monitoring:0
+[   45689ms] [ERROR] runRequest.catchError TypeError: Failed to fetch
+    at fetchCallImpl (http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IBcUIkqYZfRjUk5tHIguQaYnlC--6tFOk2jVKt-uel13_SuwL1qD13nSqAA0VrkFiNb1wxSqEC7-W02hPvnhb3_GEyWyjFGSRP6HPPJQSrE:4527:21)
+    at fetch (http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IBcUIkqYZfRjUk5tHIguQaYnlC--6tFOk2jVKt-uel13_SuwL1qD13nSqAA0VrkFiNb1wxSqEC7-W02hPvnhb3_GEyWyjFGSRP6HPPJQSrE:4533:60)
+    at U._subscribe (http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:16001)
+    at U._trySubscribe (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7473)
+    at http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7396
+    at v (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:115:614)
+    at U.subscribe (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7306)
+    at c (http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:23521)
+    at http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:23893
+    at k.<anonymous> (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:115:1045) @ http://localhost:3618/public/build/7457.3dbd75f982b92a232ca2.js:355
+[   45741ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR177:0
+[   45742ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR178:0
+[   45765ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR179:0
+[   46412ms] [ERROR] WebSocket connection to 'ws://localhost:3618/api/live/ws' failed: Connection closed before receiving a handshake response @ http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:338
+[   46419ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/login/ping:0
+[   47287ms] [ERROR] WebSocket connection to 'ws://localhost:3618/api/live/ws' failed: Connection closed before receiving a handshake response @ http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:338
+[   48885ms] [ERROR] WebSocket connection to 'ws://localhost:3618/api/live/ws' failed: Connection closed before receiving a handshake response @ http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:338
+[   50648ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR180:0
+[   50690ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/annotations?from=1792496046446&to=1792496946446&limit=100&matchAny=false&dashboardUID=uptest-monitoring:0
+[   50693ms] [ERROR] runRequest.catchError TypeError: Failed to fetch
+    at fetchCallImpl (http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IBcUIkqYZfRjUk5tHIguQaYnlC--6tFOk2jVKt-uel13_SuwL1qD13nSqAA0VrkFiNb1wxSqEC7-W02hPvnhb3_GEyWyjFGSRP6HPPJQSrE:4527:21)
+    at fetch (http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IBcUIkqYZfRjUk5tHIguQaYnlC--6tFOk2jVKt-uel13_SuwL1qD13nSqAA0VrkFiNb1wxSqEC7-W02hPvnhb3_GEyWyjFGSRP6HPPJQSrE:4533:60)
+    at U._subscribe (http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:16001)
+    at U._trySubscribe (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7473)
+    at http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7396
+    at v (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:115:614)
+    at U.subscribe (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:113:7306)
+    at c (http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:23521)
+    at http://localhost:3618/public/build/9210.170205b488a36bb02b1e.js:301:23893
+    at k.<anonymous> (http://localhost:3618/public/build/1791.d2121f46d19723228ede.js:115:1045) @ http://localhost:3618/public/build/7457.3dbd75f982b92a232ca2.js:355
+[   50695ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR181:0
+[   50700ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR182:0
+[   50704ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR183:0
+[   50706ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR184:0
+[   50771ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR185:0
+[   50772ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR186:0
+[   50773ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/api/ds/query?ds_type=prometheus&requestId=SQR187:0
+[   50824ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:3618/public/build/img/icons/unicons/exclamation-circle.svg:0

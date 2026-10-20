@@ -1,0 +1,128 @@
+- generic [ref=f38e8]:
+  - link "Skip to main content" [ref=f38e9] [cursor=pointer]:
+    - /url: "#pageContent"
+  - generic [ref=f38e11]:
+    - generic [ref=f38e12]:
+      - generic [ref=f38e13]:
+        - link [ref=f38e14] [cursor=pointer]:
+          - /url: /
+          - img "Grafana" [ref=f38e15]
+        - generic [ref=f38e16]: Grafana
+      - button "Undock menu" [ref=f38e17] [cursor=pointer]
+      - button "Close menu" [ref=f38e20] [cursor=pointer]
+    - navigation [ref=f38e23]:
+      - list "Navigation" [ref=f38e27]:
+        - listitem [ref=f38e28]:
+          - link [ref=f38e32] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f38e37]: Home
+        - listitem [ref=f38e38]:
+          - generic [ref=f38e39]:
+            - link [ref=f38e42] [cursor=pointer]:
+              - /url: /bookmarks
+              - paragraph [ref=f38e47]: Bookmarks
+            - 'button "Expand section: Bookmarks" [ref=f38e49] [cursor=pointer]'
+        - listitem [ref=f38e52]:
+          - generic [ref=f38e53]:
+            - link [ref=f38e56] [cursor=pointer]:
+              - /url: /dashboards?starred
+              - paragraph [ref=f38e61]: Starred
+            - 'button "Expand section: Starred" [ref=f38e63] [cursor=pointer]'
+        - listitem [ref=f38e66]:
+          - generic [ref=f38e67]:
+            - link [ref=f38e70] [cursor=pointer]:
+              - /url: /dashboards
+              - paragraph [ref=f38e75]: Dashboards
+            - 'button "Expand section: Dashboards" [ref=f38e77] [cursor=pointer]'
+        - listitem [ref=f38e80]:
+          - link [ref=f38e84] [cursor=pointer]:
+            - /url: /explore
+            - paragraph [ref=f38e89]: Explore
+        - listitem [ref=f38e90]:
+          - generic [ref=f38e91]:
+            - link [ref=f38e94] [cursor=pointer]:
+              - /url: /drilldown
+              - paragraph [ref=f38e102]: Drilldown
+            - 'button "Expand section: Drilldown" [ref=f38e104] [cursor=pointer]'
+        - listitem [ref=f38e107]:
+          - generic [ref=f38e108]:
+            - link [ref=f38e111] [cursor=pointer]:
+              - /url: /alerting
+              - paragraph [ref=f38e116]: Alerting
+            - 'button "Expand section: Alerting" [ref=f38e118] [cursor=pointer]'
+        - listitem [ref=f38e121]:
+          - generic [ref=f38e122]:
+            - link [ref=f38e125] [cursor=pointer]:
+              - /url: /connections
+              - paragraph [ref=f38e130]: Connections
+            - 'button "Expand section: Connections" [ref=f38e132] [cursor=pointer]'
+        - listitem [ref=f38e135]:
+          - generic [ref=f38e136]:
+            - link [ref=f38e139] [cursor=pointer]:
+              - /url: /admin
+              - paragraph [ref=f38e144]: Administration
+            - 'button "Expand section: Administration" [ref=f38e146] [cursor=pointer]'
+  - banner [ref=f38e149]:
+    - generic [ref=f38e150]:
+      - generic [ref=f38e151]:
+        - navigation "Breadcrumbs" [ref=f38e152]:
+          - list [ref=f38e153]:
+            - listitem [ref=f38e154]:
+              - link "Dashboards" [ref=f38e155] [cursor=pointer]:
+                - /url: /dashboards
+            - listitem [ref=f38e159]:
+              - link "UpTest — мониторинг" [ref=f38e160] [cursor=pointer]:
+                - /url: /d/uptest-monitoring/uptest-e28094-monitoring?from=now-15m&to=now&orgId=1&timezone=browser&refresh=5s
+            - listitem [ref=f38e164]:
+              - generic "View panel" [ref=f38e165]
+        - button "Mark \"UpTest — мониторинг\" as favorite" [ref=f38e166] [cursor=pointer]
+      - generic [ref=f38e169]:
+        - generic [ref=f38e171]:
+          - button "Search..." [ref=f38e175] [cursor=pointer]
+          - generic [ref=f38e176]: ctrl+k
+        - button "New" [ref=f38e178] [cursor=pointer]
+        - button "Help" [ref=f38e184] [cursor=pointer]
+        - button "Profile" [ref=f38e188] [cursor=pointer]:
+          - img "User avatar" [ref=f38e189]
+  - main [ref=f38e192]:
+    - log [ref=f38e193]
+    - generic [ref=f38e196]:
+      - generic [ref=f38e199]:
+        - generic [ref=f38e200]:
+          - generic [ref=f38e201]:
+            - button "Move 7m 30s backward" [ref=f38e202] [cursor=pointer]
+            - 'button "Time range selected: Last 15 minutes" [ref=f38e205] [cursor=pointer]':
+              - generic [ref=f38e208]: Last 15 minutes
+            - button "Move time range forwards" [ref=f38e213] [cursor=pointer]
+            - button "Zoom out time range" [ref=f38e216] [cursor=pointer]
+          - generic [ref=f38e219]:
+            - button "Refresh" [ref=f38e284] [cursor=pointer]
+            - button "Choose refresh time interval with current interval 5 seconds selected" [ref=f38e224] [cursor=pointer]:
+              - generic [ref=f38e225]: 5s
+        - generic [ref=f38e228]:
+          - generic [ref=f38e229]:
+            - button "Copy link" [ref=f38e230] [cursor=pointer]:
+              - generic [ref=f38e233]: Share
+            - button "Share" [ref=f38e234] [cursor=pointer]
+          - button "Enter edit mode" [ref=f38e237] [cursor=pointer]:
+            - generic [ref=f38e240]: Edit
+      - generic [ref=f38e241]:
+        - region [ref=f38e246]:
+          - heading "Состояние сайта (Polystat)" [level=2] [ref=f38e249]
+          - img [ref=f38e258]:
+            - generic [ref=f38e259]:
+              - generic: CPU
+              - generic: 2.1%
+              - generic: Запросы/с
+              - generic: 4.20 req/s
+              - generic: Ответ p95
+              - generic: 9.500 ms
+              - generic: Ошибки
+              - generic: 9.4%
+              - generic: Память
+              - generic: 52.0 MiB
+        - generic [ref=f38e267]:
+          - generic [ref=f38e268]:
+            - button "Export" [ref=f38e269] [cursor=pointer]
+            - button "Outline" [ref=f38e273] [cursor=pointer]
+          - button "Dock" [ref=f38e280] [cursor=pointer]

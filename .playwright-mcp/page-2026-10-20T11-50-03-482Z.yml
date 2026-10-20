@@ -1,0 +1,139 @@
+- main [ref=f32e11]:
+  - log [ref=f32e12]
+  - generic [ref=f32e13]:
+    - generic [ref=f32e15]:
+      - generic [ref=f32e19]:
+        - generic [ref=f32e20]:
+          - button "Move 7m 30s backward" [ref=f32e21] [cursor=pointer]
+          - 'button "Time range selected: Last 15 minutes" [ref=f32e24] [cursor=pointer]':
+            - generic [ref=f32e27]: Last 15 minutes
+          - button "Move time range forwards" [ref=f32e32] [cursor=pointer]
+          - button "Zoom out time range" [ref=f32e35] [cursor=pointer]
+        - generic [ref=f32e38]:
+          - button "Refresh" [ref=f32e39] [cursor=pointer]
+          - button "Choose refresh time interval with current interval 5 seconds selected" [ref=f32e43] [cursor=pointer]:
+            - generic [ref=f32e44]: 5s
+      - generic [ref=f32e51]:
+        - region [ref=f32e57]:
+          - heading "Состояние сайта (Polystat)" [level=2] [ref=f32e60]
+          - img [ref=f32e69]:
+            - generic [ref=f32e70]:
+              - generic: CPU
+              - generic: 1.7%
+              - generic: Запросы/с
+              - generic: 4.20 req/s
+              - generic: Ответ p95
+              - generic: 9.500 ms
+              - generic: Ошибки
+              - generic: 5.0%
+              - generic: Память
+              - generic: 52.1 MiB
+        - region [ref=f32e81]:
+          - heading "Зарегистрировано пользователей" [level=2] [ref=f32e84]
+          - generic "Пользователи" [ref=f32e88]: "8"
+        - region [ref=f32e105]:
+          - heading "Тестов в базе" [level=2] [ref=f32e108]
+          - generic "Тесты" [ref=f32e112]: "12"
+        - region [ref=f32e121]:
+          - heading "Сдачи тестов (за 5 минут)" [level=2] [ref=f32e124]
+          - list [ref=f32e142]:
+            - listitem [ref=f32e143]:
+              - generic [ref=f32e145]:
+                - button "Edit color for Сдачи" [ref=f32e146] [cursor=pointer]
+                - button "All series selected" [ref=f32e147] [cursor=pointer]: Сдачи
+        - region [ref=f32e153]:
+          - heading "Запросы в секунду по страницам" [level=2] [ref=f32e156]
+          - list [ref=f32e174]:
+            - listitem [ref=f32e175]:
+              - generic [ref=f32e177]:
+                - button "Edit color for biology" [ref=f32e178] [cursor=pointer]
+                - button "All series selected" [ref=f32e179] [cursor=pointer]: biology
+            - listitem [ref=f32e180]:
+              - generic [ref=f32e182]:
+                - button "Edit color for geo" [ref=f32e183] [cursor=pointer]
+                - button "All series selected" [ref=f32e184] [cursor=pointer]: geo
+            - listitem [ref=f32e185]:
+              - generic [ref=f32e187]:
+                - button "Edit color for history" [ref=f32e188] [cursor=pointer]
+                - button "All series selected" [ref=f32e189] [cursor=pointer]: history
+            - listitem [ref=f32e190]:
+              - generic [ref=f32e192]:
+                - button "Edit color for home" [ref=f32e193] [cursor=pointer]
+                - button "All series selected" [ref=f32e194] [cursor=pointer]: home
+            - listitem [ref=f32e195]:
+              - generic [ref=f32e197]:
+                - button "Edit color for informatics" [ref=f32e198] [cursor=pointer]
+                - button "All series selected" [ref=f32e199] [cursor=pointer]: informatics
+            - listitem [ref=f32e200]:
+              - generic [ref=f32e202]:
+                - button "Edit color for literature" [ref=f32e203] [cursor=pointer]
+                - button "All series selected" [ref=f32e204] [cursor=pointer]: literature
+            - listitem [ref=f32e205]:
+              - generic [ref=f32e207]:
+                - button "Edit color for login" [ref=f32e208] [cursor=pointer]
+                - button "All series selected" [ref=f32e209] [cursor=pointer]: login
+            - listitem [ref=f32e210]:
+              - generic [ref=f32e212]:
+                - button "Edit color for russian" [ref=f32e213] [cursor=pointer]
+                - button "All series selected" [ref=f32e214] [cursor=pointer]: russian
+            - listitem [ref=f32e215]:
+              - generic [ref=f32e217]:
+                - button "Edit color for signup" [ref=f32e218] [cursor=pointer]
+                - button "All series selected" [ref=f32e219] [cursor=pointer]: signup
+            - listitem [ref=f32e220]:
+              - generic [ref=f32e222]:
+                - button "Edit color for take_math_test" [ref=f32e223] [cursor=pointer]
+                - button "All series selected" [ref=f32e224] [cursor=pointer]: take_math_test
+            - listitem [ref=f32e225]:
+              - generic [ref=f32e227]:
+                - button "Edit color for take_russian_test" [ref=f32e228] [cursor=pointer]
+                - button "All series selected" [ref=f32e229] [cursor=pointer]: take_russian_test
+            - listitem [ref=f32e230]:
+              - generic [ref=f32e232]:
+                - button "Edit color for test_list" [ref=f32e233] [cursor=pointer]
+                - button "All series selected" [ref=f32e234] [cursor=pointer]: test_list
+        - region [ref=f32e240]:
+          - heading "Время ответа (p50 / p95)" [level=2] [ref=f32e243]
+          - list [ref=f32e261]:
+            - listitem [ref=f32e262]:
+              - generic [ref=f32e264]:
+                - button "Edit color for p50 (медиана)" [ref=f32e265] [cursor=pointer]
+                - button "All series selected" [ref=f32e266] [cursor=pointer]: p50 (медиана)
+            - listitem [ref=f32e267]:
+              - generic [ref=f32e269]:
+                - button "Edit color for p95" [ref=f32e270] [cursor=pointer]
+                - button "All series selected" [ref=f32e271] [cursor=pointer]: p95
+        - region [ref=f32e277]:
+          - heading "Ответы по HTTP-статусам" [level=2] [ref=f32e280]
+          - list [ref=f32e298]:
+            - listitem [ref=f32e299]:
+              - generic [ref=f32e301]:
+                - button "Edit color for 200" [ref=f32e302] [cursor=pointer]
+                - button "All series selected" [ref=f32e303] [cursor=pointer]: "200"
+            - listitem [ref=f32e304]:
+              - generic [ref=f32e306]:
+                - button "Edit color for 404" [ref=f32e307] [cursor=pointer]
+                - button "All series selected" [ref=f32e308] [cursor=pointer]: "404"
+        - region [ref=f32e314]:
+          - heading "SQL-запросы к БД в секунду" [level=2] [ref=f32e317]
+          - list [ref=f32e335]:
+            - listitem [ref=f32e336]:
+              - generic [ref=f32e338]:
+                - button "Edit color for запросов&#x2F;с" [ref=f32e339] [cursor=pointer]
+                - button "All series selected" [ref=f32e340] [cursor=pointer]: запросов/с
+        - region [ref=f32e346]:
+          - heading "Загрузка CPU процессом" [level=2] [ref=f32e349]
+          - list [ref=f32e367]:
+            - listitem [ref=f32e368]:
+              - generic [ref=f32e370]:
+                - button "Edit color for CPU" [ref=f32e371] [cursor=pointer]
+                - button "All series selected" [ref=f32e372] [cursor=pointer]: CPU
+        - region [ref=f32e378]:
+          - heading "Память процесса (RSS)" [level=2] [ref=f32e381]
+          - list [ref=f32e399]:
+            - listitem [ref=f32e400]:
+              - generic [ref=f32e402]:
+                - button "Edit color for RSS" [ref=f32e403] [cursor=pointer]
+                - button "All series selected" [ref=f32e404] [cursor=pointer]: RSS
+    - link "Powered by" [ref=f32e406] [cursor=pointer]:
+      - /url: https://grafana.com/?src=grafananet&cnt=kiosk-dashboard

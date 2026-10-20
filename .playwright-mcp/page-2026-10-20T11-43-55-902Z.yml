@@ -1,0 +1,3 @@
+- generic [ref=f8e2]:
+  - generic [ref=f8e3]: Windows PowerShell
+  - generic [ref=f8e4]: PS C:\Users\Виктор> docker exec para0705-grafana-1 grafana cli plugins install grafana-polystat-panel ✔ Downloaded and extracted grafana-polystat-panel v2.1.16 zip successfully to /var/lib/grafana/plugins/grafana-polystat-panel Please restart Grafana after installing or removing plugins. PS C:\Users\Виктор> docker restart para0705-grafana-1 para0705-grafana-1 PS C:\Users\Виктор> docker exec para0705-grafana-1 grafana cli plugins ls | findstr polystat grafana-polystat-panel @ 2.1.16
